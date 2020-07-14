@@ -124,6 +124,10 @@ const RatingInline: FunctionComponent<Props> = props => {
           <span className="t-heading-5 v-mid">
             <Stars rating={state.average} />
           </span>
+          {' '}
+          <span className="review__rating--count dib v-mid">
+            ({state.total})
+          </span>
         </Fragment>
       )}
     </div>
